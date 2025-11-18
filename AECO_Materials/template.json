@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Material Name as per Specifications",
+        "description": "Long description of material.",
+        "category": "Material Category to group similar materials together"
+    },
+    {
+        "name": "Concrete C35/40",
+        "description": "In-situ cast concrete with a characteristic compressive strength of 35 MPa (cylinder) or 40 MPa (cube).",
+        "category": "concrete"
+    }
+]
