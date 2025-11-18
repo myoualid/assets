@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Concrete C35/40",
+        "category": "concrete"
+    },
+    {
+        "name": "Concrete C35/40 Liquid hardening additive",
+        "category": "concrete"
+    },
+    {
+        "name": "Steel S355",
+        "category": "steel"
+    },
+    {
+        "name": "Bitumen Roll",
+        "category": "waterproofing"
+    },
+    {
+        "name": "Liquid Bitumen",
+        "category": "waterproofing"
+    },
+    {
+        "name": "Plywood",
+        "category": "wood"
+    },
+    {
+        "name": "MDF Board",
+        "category": "wood"
+    },
+    {
+        "name": "Oak Wood",
+        "category": "wood"
+    },
+    {
+        "name": "Glass Clear",
+        "category": "glass"
+    },
+    {
+        "name": "Laminated Glass",
+        "category": "glass"
+    },
+    {
+        "name": "Tempered Glass",
+        "category": "glass"
+    },
+    {
+        "name": "Fiberglass Insulation",
+        "category": "insulation"
+    },
+    {
+        "name": "Mineral Wool",
+        "category": "insulation"
+    },
+    {
+        "name": "Brick Red",
+        "category": "masonry"
+    },
+    {
+        "name": "Concrete Block",
+        "category": "masonry"
+    },
+    {
+        "name": "Granite",
+        "category": "stone"
+    },
+    {
+        "name": "Marble",
+        "category": "stone"
+    },
+    {
+        "name": "Aluminum Alloy",
+        "category": "metal"
+    },
+    {
+        "name": "Anodized Aluminium",
+        "category": "metal"
+    },
+    {
+        "name": "Copper",
+        "category": "metal"
+    },
+    {
+        "name": "Ceramic Tile",
+        "category": "ceramic"
+    },
+    {
+        "name": "Porcelain",
+        "category": "ceramic"
+    },
+    {
+        "name": "PVC",
+        "category": "plastic"
+    },
+    {
+        "name": "Epoxy Resin",
+        "category": "plastic"
+    },
+    {
+        "name": "Rubber Sealant",
+        "category": "sealant"
+    },
+    {
+        "name": "Silicone Sealant",
+        "category": "sealant"
+    },
+    {
+        "name": "Asphalt Shingle",
+        "category": "general"
+    }
+]
