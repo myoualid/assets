@@ -1,0 +1,172 @@
+{
+    "IfcCircleHollowProfileDef": [
+        {
+            "ProfileName": "PIPE DIN 110mm",
+            "ProfileType": "AREA",
+            "Radius": "0.0055",
+            "WallThickness": "0.0025",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.000",
+                        "Perimeter": "0.035"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "PIPE DIN 160mm",
+            "ProfileType": "AREA",
+            "Radius": "0.0080",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.000",
+                        "Perimeter": "0.050"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "PIPE DIN 200mm",
+            "ProfileType": "AREA",
+            "Radius": "0.0010",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.000",
+                        "Perimeter": "0.006"
+                    }
+                }
+            ]
+        }
+    ],
+    "IfcRectangleProfileDef": [
+        {
+            "ProfileName": "CONCRETE BEAM 200mmx250mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.200",
+            "YDIM": "0.250",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.050",
+                        "Perimeter": "0.900"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "CONCRETE BEAM 200mmx300mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.200",
+            "YDIM": "0.300",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.060",
+                        "Perimeter": "1.000"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "CONCRETE BEAM 200mmx350mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.200",
+            "YDIM": "0.350",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.070",
+                        "Perimeter": "1.100"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "CONCRETE BEAM 250mmx300mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.250",
+            "YDIM": "0.300",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.075",
+                        "Perimeter": "1.100"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "PRECAST PT CONCRETE BEAM 300mmx500mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.300",
+            "YDIM": "0.500",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.150",
+                        "Perimeter": "1.600"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "CONCRETE COLUMN 200mmx250mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.200",
+            "YDIM": "0.350",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.070",
+                        "Perimeter": "1.100"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "CONCRETE COLUMN 250mmx300mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.250",
+            "YDIM": "0.300",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.075",
+                        "Perimeter": "1.100"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "DUCT 250mmx200mm",
+            "ProfileType": "CURVE",
+            "XDIM": "0.250",
+            "YDIM": "0.200",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.050",
+                        "Perimeter": "0.900"
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "OPENING 200mmx200mm",
+            "ProfileType": "AREA",
+            "XDIM": "0.200",
+            "YDIM": "0.200",
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": "0.040",
+                        "Perimeter": "0.800"
+                    }
+                }
+            ]
+        }
+    ]
+}
