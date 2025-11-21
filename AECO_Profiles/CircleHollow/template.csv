@@ -1,5 +1,5 @@
 GlobalId,ProfileName ,ProfileType ,Radius,WallThickness ,"
 Pset_ProfileMechanical.CrossSectionArea ",Pset_ProfileMechanical.Perimeter 
 ,PIPE DIN 110mm,AREA,0.0055,0.0025,0.000,0.035
-,PIPE DIN 160mm,AREA,0.0080,,0.000,0.050
-,PIPE DIN 200mm,AREA,0.0010,,0.000,0.006
+,PIPE DIN 160mm,AREA,0.0080,0.0025,0.000,0.050
+,PIPE DIN 200mm,AREA,0.0010,0.0025,0.000,0.006

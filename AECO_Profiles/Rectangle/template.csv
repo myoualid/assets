@@ -12,5 +12,4 @@ Pset_ProfileMechanical.CrossSectionArea ",Pset_ProfileMechanical.Perimeter
 ,,,,,,
 ,DUCT 250mmx200mm,CURVE,0.250,0.200,0.050,0.900
 ,,,,,,
-,,,,,,
 ,OPENING 200mmx200mm,AREA,0.200,0.200,0.040,0.800
