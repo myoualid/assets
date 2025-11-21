@@ -4,6 +4,20 @@ import json
 from pathlib import Path
 
 
+def convert_value(val):
+    val = val.strip()
+    if not val:
+        return val
+    try:
+        num = float(val)
+        if num.is_integer():
+            return int(num)
+        else:
+            return num
+    except ValueError:
+        return val
+
+
 def read_csv_profiles(csv_path):
     profiles = []
     with open(csv_path, 'r', newline='') as f:
@@ -19,10 +33,10 @@ def read_csv_profiles(csv_path):
                         pset_name = parts[0]
                         prop_name = parts[1]
                         if val.strip():
-                            psets.setdefault(pset_name, {})[prop_name] = val
+                            psets.setdefault(pset_name, {})[prop_name] = convert_value(val)
                 else:
                     if val.strip():
-                        profile[col] = val
+                        profile[col] = convert_value(val)
             if psets:
                 profile['psets'] = [{name: props} for name, props in psets.items()]
             if profile.get('ProfileName', '').strip():
