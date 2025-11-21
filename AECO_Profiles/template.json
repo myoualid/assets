@@ -47,8 +47,8 @@
         {
             "ProfileName": "CONCRETE BEAM 200mmx250mm",
             "ProfileType": "AREA",
-            "XDIM": 0.2,
-            "YDIM": 0.25,
+            "XDim": 0.2,
+            "YDim": 0.25,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -61,8 +61,8 @@
         {
             "ProfileName": "CONCRETE BEAM 200mmx300mm",
             "ProfileType": "AREA",
-            "XDIM": 0.2,
-            "YDIM": 0.3,
+            "XDim": 0.2,
+            "YDim": 0.3,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -75,8 +75,8 @@
         {
             "ProfileName": "CONCRETE BEAM 200mmx350mm",
             "ProfileType": "AREA",
-            "XDIM": 0.2,
-            "YDIM": 0.35,
+            "XDim": 0.2,
+            "YDim": 0.35,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -89,8 +89,8 @@
         {
             "ProfileName": "CONCRETE BEAM 250mmx300mm",
             "ProfileType": "AREA",
-            "XDIM": 0.25,
-            "YDIM": 0.3,
+            "XDim": 0.25,
+            "YDim": 0.3,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -103,8 +103,8 @@
         {
             "ProfileName": "PRECAST PT CONCRETE BEAM 300mmx500mm",
             "ProfileType": "AREA",
-            "XDIM": 0.3,
-            "YDIM": 0.5,
+            "XDim": 0.3,
+            "YDim": 0.5,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -117,8 +117,8 @@
         {
             "ProfileName": "CONCRETE COLUMN 200mmx250mm",
             "ProfileType": "AREA",
-            "XDIM": 0.2,
-            "YDIM": 0.35,
+            "XDim": 0.2,
+            "YDim": 0.35,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -131,8 +131,8 @@
         {
             "ProfileName": "CONCRETE COLUMN 250mmx300mm",
             "ProfileType": "AREA",
-            "XDIM": 0.25,
-            "YDIM": 0.3,
+            "XDim": 0.25,
+            "YDim": 0.3,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -145,8 +145,8 @@
         {
             "ProfileName": "DUCT 250mmx200mm",
             "ProfileType": "CURVE",
-            "XDIM": 0.25,
-            "YDIM": 0.2,
+            "XDim": 0.25,
+            "YDim": 0.2,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
@@ -159,8 +159,8 @@
         {
             "ProfileName": "OPENING 200mmx200mm",
             "ProfileType": "AREA",
-            "XDIM": 0.2,
-            "YDIM": 0.2,
+            "XDim": 0.2,
+            "YDim": 0.2,
             "psets": [
                 {
                     "Pset_ProfileMechanical": {
