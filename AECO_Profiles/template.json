@@ -1,48 +1,4 @@
 {
-    "IfcCircleHollowProfileDef": [
-        {
-            "ProfileName": "PIPE DIN 110mm",
-            "ProfileType": "AREA",
-            "Radius": 0.0055,
-            "WallThickness": 0.0025,
-            "psets": [
-                {
-                    "Pset_ProfileMechanical": {
-                        "CrossSectionArea": 0,
-                        "Perimeter": 0.035
-                    }
-                }
-            ]
-        },
-        {
-            "ProfileName": "PIPE DIN 160mm",
-            "ProfileType": "AREA",
-            "Radius": 0.008,
-            "WallThickness": 0.0025,
-            "psets": [
-                {
-                    "Pset_ProfileMechanical": {
-                        "CrossSectionArea": 0,
-                        "Perimeter": 0.05
-                    }
-                }
-            ]
-        },
-        {
-            "ProfileName": "PIPE DIN 200mm",
-            "ProfileType": "AREA",
-            "Radius": 0.001,
-            "WallThickness": 0.0025,
-            "psets": [
-                {
-                    "Pset_ProfileMechanical": {
-                        "CrossSectionArea": 0,
-                        "Perimeter": 0.006
-                    }
-                }
-            ]
-        }
-    ],
     "IfcRectangleProfileDef": [
         {
             "ProfileName": "CONCRETE BEAM 200mmx250mm",
@@ -166,6 +122,78 @@
                     "Pset_ProfileMechanical": {
                         "CrossSectionArea": 0.04,
                         "Perimeter": 0.8
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "STRIP FOOTING 200mmx300mm",
+            "ProfileType": "AREA",
+            "XDim": 0.2,
+            "YDim": 0.3,
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": 0.06,
+                        "Perimeter": 1
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "STRIP FOOTING 250mmx300mm",
+            "ProfileType": "AREA",
+            "XDim": 0.25,
+            "YDim": 0.3,
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": 0.075,
+                        "Perimeter": 1.1
+                    }
+                }
+            ]
+        }
+    ],
+    "IfcCircleHollowProfileDef": [
+        {
+            "ProfileName": "PIPE DIN 110mm",
+            "ProfileType": "AREA",
+            "Radius": 0.0055,
+            "WallThickness": 0.0025,
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": 9.50331777710912e-05,
+                        "Perimeter": 0.0345575191894877
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "PIPE DIN 160mm",
+            "ProfileType": "AREA",
+            "Radius": 0.008,
+            "WallThickness": 0.0025,
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": 0.000201061929829747,
+                        "Perimeter": 0.0502654824574367
+                    }
+                }
+            ]
+        },
+        {
+            "ProfileName": "PIPE DIN 200mm",
+            "ProfileType": "AREA",
+            "Radius": 0.001,
+            "WallThickness": 0.0025,
+            "psets": [
+                {
+                    "Pset_ProfileMechanical": {
+                        "CrossSectionArea": 3.14159265358979e-06,
+                        "Perimeter": 0.00628318530717959
                     }
                 }
             ]

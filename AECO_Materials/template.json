@@ -1,12 +1,142 @@
 [
     {
-        "name": "Material Name as per Specifications",
-        "description": "Long description of material.",
-        "category": "Material Category to group similar materials together"
+        "Name": "Concrete C35/40",
+        "Category": "concrete"
     },
     {
-        "name": "Concrete C35/40",
-        "description": "In-situ cast concrete with a characteristic compressive strength of 35 MPa (cylinder) or 40 MPa (cube).",
-        "category": "concrete"
+        "Name": "Concrete C35/40 Liquid hardening additive",
+        "Category": "concrete"
+    },
+    {
+        "Name": "Steel S355",
+        "Category": "steel"
+    },
+    {
+        "Name": "Bitumen Roll",
+        "Category": "waterproofing"
+    },
+    {
+        "Name": "Liquid Bitumen",
+        "Category": "waterproofing"
+    },
+    {
+        "Name": "Plywood",
+        "Category": "wood"
+    },
+    {
+        "Name": "MDF Board",
+        "Category": "wood"
+    },
+    {
+        "Name": "Oak Wood",
+        "Category": "wood"
+    },
+    {
+        "Name": "Glass Clear",
+        "Category": "glass"
+    },
+    {
+        "Name": "Laminated Glass",
+        "Category": "glass"
+    },
+    {
+        "Name": "Tempered Glass",
+        "Category": "glass"
+    },
+    {
+        "Name": "Fiberglass Insulation",
+        "Category": "insulation"
+    },
+    {
+        "Name": "Mineral Wool",
+        "Category": "insulation"
+    },
+    {
+        "Name": "Brick Red",
+        "Category": "masonry"
+    },
+    {
+        "Name": "Concrete Block",
+        "Category": "masonry"
+    },
+    {
+        "Name": "Granite",
+        "Category": "stone"
+    },
+    {
+        "Name": "Marble",
+        "Category": "stone"
+    },
+    {
+        "Name": "Aluminum Alloy",
+        "Category": "metal"
+    },
+    {
+        "Name": "Anodized Aluminium",
+        "Category": "metal"
+    },
+    {
+        "Name": "Copper",
+        "Category": "metal"
+    },
+    {
+        "Name": "Ceramic Tile",
+        "Category": "ceramic"
+    },
+    {
+        "Name": "Porcelain",
+        "Category": "ceramic"
+    },
+    {
+        "Name": "PVC",
+        "Category": "plastic"
+    },
+    {
+        "Name": "Epoxy Resin",
+        "Category": "plastic"
+    },
+    {
+        "Name": "Rubber Sealant",
+        "Category": "sealant"
+    },
+    {
+        "Name": "Silicone Sealant",
+        "Category": "sealant"
+    },
+    {
+        "Name": "Asphalt Shingle",
+        "Category": "general"
+    },
+    {
+        "Name": "Void",
+        "Category": "general"
+    },
+    {
+        "Name": "Air",
+        "Category": "general"
+    },
+    {
+        "Name": "Skim Coat",
+        "Category": "plastering"
+    },
+    {
+        "Name": "Cementer Filler",
+        "Category": "plastering"
+    },
+    {
+        "Name": "White paint",
+        "Category": "paint"
+    },
+    {
+        "Name": "Blue paint",
+        "Category": "paint"
+    },
+    {
+        "Name": "Green paint",
+        "Category": "paint"
+    },
+    {
+        "Name": "Beige Stucco",
+        "Category": "plastering"
     }
 ]

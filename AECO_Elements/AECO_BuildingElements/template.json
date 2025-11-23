@@ -3,10 +3,10 @@
         {
             "Name": "F1",
             "PredefinedType": "STRIP_FOOTING",
-            "Description": "CONCRETE BEAM 200mmx300mm made of Concrete C35/40",
+            "Description": "STRIP FOOTING 200mmx300mm made of Concrete C35/40",
             "IfcMaterialProfileSet": [
                 {
-                    "Profile": "CONCRETE BEAM 200mmx300mm",
+                    "Profile": "STRIP FOOTING 200mmx300mm",
                     "Material": "Concrete C35/40"
                 }
             ]
@@ -14,10 +14,10 @@
         {
             "Name": "F2",
             "PredefinedType": "STRIP_FOOTING",
-            "Description": "CONCRETE BEAM 250mmx300mm made of Concrete C35/40",
+            "Description": "STRIP FOOTING 250mmx300mm made of Concrete C35/40",
             "IfcMaterialProfileSet": [
                 {
-                    "Profile": "CONCRETE BEAM 250mmx300mm",
+                    "Profile": "STRIP FOOTING 250mmx300mm",
                     "Material": "Concrete C35/40"
                 }
             ]
@@ -75,6 +75,7 @@
         {
             "Name": "SL 1",
             "PredefinedType": "BASESLAB",
+            "Description": "BASESLAB With 200 mm Thick Concrete C35/40 Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.2,
@@ -85,6 +86,7 @@
         {
             "Name": "SL 2",
             "PredefinedType": "BASESLAB",
+            "Description": "BASESLAB With 250 mm Thick Concrete C35/40 Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.25,
@@ -95,6 +97,7 @@
         {
             "Name": "SL 3",
             "PredefinedType": "BASESLAB",
+            "Description": "BASESLAB With 100 mm Thick Concrete C35/40 Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.1,
@@ -105,6 +108,7 @@
         {
             "Name": "SL 4",
             "PredefinedType": "BASESLAB",
+            "Description": "BASESLAB With 80 mm Thick Concrete C35/40 Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.08,
@@ -117,6 +121,7 @@
         {
             "Name": "BLK 100",
             "PredefinedType": "SOLIDWALL",
+            "Description": "SOLIDWALL With 100 mm Thick Concrete Block Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.1,
@@ -127,6 +132,7 @@
         {
             "Name": "BR 70",
             "PredefinedType": "PARTITIONING",
+            "Description": "PARTITIONING With 70 mm Thick Brick Red Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.07,
@@ -137,13 +143,38 @@
         {
             "Name": "BR 200",
             "PredefinedType": "PARTITIONING",
+            "Description": "PARTITIONING With 70 mm Thick Brick Red Layer+10 mm Thick void Layer+50 mm Thick Mineral Wool Layer+70 mm Thick Brick Red Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.07,
                     "Material": "Brick Red"
                 },
                 {
-                    "Thickness": 0.01
+                    "Thickness": 0.01,
+                    "Material": "void"
+                },
+                {
+                    "Thickness": 0.05,
+                    "Material": "Mineral Wool"
+                },
+                {
+                    "Thickness": 0.07,
+                    "Material": "Brick Red"
+                }
+            ]
+        },
+        {
+            "Name": "BR 250",
+            "PredefinedType": "PARTITIONING",
+            "Description": "PARTITIONING With 70 mm Thick Brick Red Layer+60 mm Thick void Layer+50 mm Thick Mineral Wool Layer+70 mm Thick Brick Red Layer",
+            "IfcMaterialLayerSet": [
+                {
+                    "Thickness": 0.07,
+                    "Material": "Brick Red"
+                },
+                {
+                    "Thickness": 0.06,
+                    "Material": "void"
                 },
                 {
                     "Thickness": 0.05,
@@ -158,25 +189,31 @@
     ],
     "IfcCoveringType": [
         {
-            "Name": "Paint White",
-            "Description": "RAL 9010",
+            "Name": "Paint White RAL 9010",
+            "PredefinedType": "WRAPPING",
+            "Description": "WRAPPING With 2 mm Thick White paint Layer",
             "IfcMaterialLayerSet": [
                 {
-                    "Thickness": 0.002
+                    "Thickness": 0.002,
+                    "Material": "White paint"
                 }
             ]
         },
         {
             "Name": "Skim Coat",
+            "PredefinedType": "WRAPPING",
+            "Description": "WRAPPING With 5 mm Thick Skim Coat Layer",
             "IfcMaterialLayerSet": [
                 {
-                    "Thickness": 0.005
+                    "Thickness": 0.005,
+                    "Material": "Skim Coat"
                 }
             ]
         },
         {
             "Name": "Vertical Waterproofing",
             "PredefinedType": "MEMBRANE",
+            "Description": "MEMBRANE With 5 mm Thick Bitumen Roll Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.005,
@@ -186,6 +223,8 @@
         },
         {
             "Name": "Horizontal Waterproofing",
+            "PredefinedType": "MEMBRANE",
+            "Description": "MEMBRANE With 5 mm Thick Bitumen Roll Layer",
             "IfcMaterialLayerSet": [
                 {
                     "Thickness": 0.005,
@@ -195,18 +234,22 @@
         },
         {
             "Name": "Facade Stucco",
+            "PredefinedType": "WRAPPING",
+            "Description": "WRAPPING With 10 mm Thick Beige Stucco Layer",
             "IfcMaterialLayerSet": [
                 {
-                    "Thickness": 0.001
+                    "Thickness": 0.01,
+                    "Material": "Beige Stucco"
                 }
             ]
         },
         {
             "Name": "Insulation Panel",
             "PredefinedType": "INSULATION",
+            "Description": "INSULATION With 50 mm Thick Fiberglass Insulation Layer",
             "IfcMaterialLayerSet": [
                 {
-                    "Thickness": 0.005,
+                    "Thickness": 0.05,
                     "Material": "Fiberglass Insulation"
                 }
             ]
