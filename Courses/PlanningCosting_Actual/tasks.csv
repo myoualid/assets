@@ -1,0 +1,14 @@
+Index,Identification,Name,Planned,Planned,ActualStart,ActualFinish,Drift (days),Status,,,,
+1,DB-01,Procurement,,,,,,,,,,
+1,DB-02,Design,,,,,,,,,,
+1,DB-03,Construction,,,,,,,,,,
+2,DB-03.01,Site preparation ( child task ),,,,,,,,,,)
+2,DB-03.02,Ground works,,,,,,,,,,)
+2,DB-03.03,Structural works,,,,,,,,,,
+3,DB-03.03.01  ,Substructure,,,,,,,,,,
+4,DB-03.03.01.01  ,Excavate pad footings,12/01/26,16/01/26,12/01/26,16/01/26,0,COMPLETED,,,,
+4,DB-03.03.01.02 , Cast pad footings,17/01/26,18/01/26,17/01/26,19/01/26,1,COMPLETED,,,,
+4,DB-03.03.01.03  ,Cast ground beams,19/01/26,20/01/26,20/01/26,22/01/26,1,COMPLETED,,,,
+3,DB-03.03.02 , Superstructure,,,,,,,,,,
+4,DB-03.03.02.01  ,Erect columns,21/01/26,24/01/26,,,,,,,,
+3,DB-03.04,Architectural works,,,,,,,,,,
